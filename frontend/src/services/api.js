@@ -1,4 +1,3 @@
-```javascript
 import axios from "axios";
 
 // ======================================
@@ -246,4 +245,3 @@ export async function getDashboardStats() {
 // ======================================
 
 export default client;
-```
