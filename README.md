@@ -227,8 +227,10 @@ npm run dev
 ### Backend `.env` (optional)
 ```
 SECRET_KEY=your-secret-key
-DATABASE_URL=sqlite:///./student.db
+ALGORITHM=SHA256
+DATABASE_URL=your_database_url
 ACCESS_TOKEN_EXPIRE_MINUTES=60
+OPENAI_API_KEY=your_openai_api_key
 ```
 
 ### Frontend Environment
